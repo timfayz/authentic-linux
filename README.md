@@ -5,6 +5,9 @@
 Install Linux *the hard way*. For those who love minimalism, simplicity and mindfulness of what's going on under the hood. Congnitive load is higher than usual! So don't try to do it *one* day/week/month. Be patient, calm and detached. If it burdens you - f\*ck it!
 
 ## Stack
+These tools are chosen carefully and wisely.
+
+[base]
 * Syslinux - as bootloader for any Linux distribution
 * Void Linux - as a base distribution and package manager
 * Xorg - as display server
@@ -16,11 +19,16 @@ Install Linux *the hard way*. For those who love minimalism, simplicity and mind
 * vscode - as IDE
 * firefox - as a browser
 
+[toolbox]
+* openntpd - to set system time from internet 
+
 ## Legend
 * `[--flag]` - optional flag. Shown to be clear what's implied.
 
 ## Create Live USB
-### Get USB stick and plug (all data will be destroyed!)
+### Get USB stick and plug it
+
+*(!) all data will be destroyed*
 
 Linux
 ```bash
@@ -37,6 +45,7 @@ Get uniboot
 ```
 
 ### Reboot and boot from the media
+
 Now you're in
 ```bash
 voidlinux login:
@@ -44,11 +53,11 @@ voidlinux login:
 # password voidlinux
 ```
 
-Set correct system time
+Set correct system & hardware time
 ```bash
-# check Hardware Clock
-hwclock [--show]
-# check System Clock
+# show Hardware Clock
+hwclock [--show] # if `Cannot access the Hardware Clock via ..` hwclock --directisa
+# show System Clock
 date
 # compare
 # a. if the only system is correct
@@ -58,4 +67,11 @@ hwclock --hctosys
 # c. if you want to set hardware clock manually
 hwclock --set [--utc] --date='16:25' # or --date='2020-08-05 16:25:59'
 #    repeat b.
+# d. if you want to set system clock manually
+date --date='16:25' # or --date='2020-08-05 16:25:59'
+#    repeat a.
+# e. if you want to set system clock from internet
+xbps-install openntpd
+ln -s /etc/sv/openntpd /var/service/
+#    done; now ntpd daemon is running; repeat a.
 ```
