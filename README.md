@@ -1,8 +1,8 @@
-# Element Linux
+# Simply Linux
 
 ![screenshot](https://pre00.deviantart.net/96d5/th/pre/f/2010/175/b/6/dwm__float__by_edma2.png)
 
-Install Linux *the hard way*. For those who love minimalism, simplicity and mindfulness of what's going on under the hood. Congnitive load is higher than usual so don't try to do it *one* day/week/month. Be patient, calm and detached. If it burdens you - f\*ck it!
+Install Linux *the hard way*. For those who love minimalism, simplicity and mindfulness of what's going on under the hood. Congnitive load is higher than usual! So don't try to do it *one* day/week/month. Be patient, calm and detached. If it burdens you - f\*ck it!
 
 ## Stack
 * Syslinux - as bootloader for any Linux distribution
