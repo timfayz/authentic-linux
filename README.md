@@ -68,14 +68,14 @@ hwclock --systohc
 hwclock --hctosys
 # c. if you want to set hardware clock manually
 hwclock --set [--utc] --date='16:25' # or --date='2020-08-05 16:25:59'
-#    repeat b.
+#    repeat b; done.
 # d. if you want to set system clock manually
 date --date='16:25' # or --date='2020-08-05 16:25:59'
-#    repeat a.
+#    repeat a; done.
 # e. if you want to set system clock from internet
 xbps-install openntpd
 ln -s /etc/sv/openntpd /var/service/
-#    done; now ntpd daemon is running; repeat a.
+#    now ntpd daemon is running; repeat a; done.
 ```
 
 ### Prepare package manager
