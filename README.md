@@ -2,7 +2,7 @@
 
 ![screenshot](https://pre00.deviantart.net/96d5/th/pre/f/2010/175/b/6/dwm__float__by_edma2.png)
 
-Install Linux *the hard way*. For those who love minimalism, simplicity and mindfulness of what's going on under the hood.
+Install Linux *the hard way*. For those who love minimalism, simplicity and mindfulness of what's going on under the hood. Congnitive load is higher than usual so don't try to do it *one* day/week/month. Be patient, calm and detached. If it burdens you - f\*ck it!
 
 ## Stack
 * Syslinux - as bootloader for any Linux distribution
@@ -16,9 +16,13 @@ Install Linux *the hard way*. For those who love minimalism, simplicity and mind
 * vscode - as IDE
 * firefox - as a browser
 
-## Prepare
-1. Get USB stick and plug (data will be destroyed!). Run your system (I assume we've some already installed system)
-**If Linux:**
+## Legend
+* `[--flag]` - optional flag. Shown to be clear what's implied.
+
+## Create Live USB
+### Get USB stick and plug (all data will be destroyed!)
+
+Linux
 ```bash
 # mount
 sudo mount /dev/sdx /mnt
@@ -26,16 +30,19 @@ sudo mount /dev/sdx /mnt
 cd ~/Downloads
 sudo dd bs=4M if=void-live-x86_64-20171007.iso  of=/dev/sdx && sync
 ```
-**If Windows**
+
+Windows
 ```
+Get uniboot
 ```
 
-#### Reboot and boot from the media
-
-```
-
-```
-
-```
-code
+### Reboot and boot from the media
+Set correct system time
+```bash
+# check Hardware Clock
+# hwclock [--show]
+# check System Clock
+date
+# 
+hwclock --set [--utc] --date='16:25' # or --date='2020-08-05 16:25:59'
 ```
