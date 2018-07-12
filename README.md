@@ -37,12 +37,25 @@ Get uniboot
 ```
 
 ### Reboot and boot from the media
+Now you're in
+```bash
+voidlinux login:
+# login root
+# password voidlinux
+```
+
 Set correct system time
 ```bash
 # check Hardware Clock
-# hwclock [--show]
+hwclock [--show]
 # check System Clock
 date
-# 
+# compare
+# a. if the only system is correct
+hwclock --systohc
+# b. if only hardware is correct
+hwclock --hctosys
+# c. if you want to set hardware clock manually
 hwclock --set [--utc] --date='16:25' # or --date='2020-08-05 16:25:59'
+#    repeat b.
 ```
