@@ -36,7 +36,7 @@ Linux
 sudo mount /dev/sdx /mnt
 # go https://repo.voidlinux.eu/live/current/ and get the latest Void Linux
 cd ~/Downloads
-sudo dd bs=4M if=void-live-x86_64-20171007.iso  of=/dev/sdx && sync
+sudo dd bs=4M if=void-live-x86_64-20171007.iso of=/dev/sdx && sync
 ```
 
 Windows
@@ -48,7 +48,9 @@ Get uniboot
 
 Now you're in
 ```bash
-voidlinux login:
+...
+
+voidlinux login: |
 # login root
 # password voidlinux
 ```
@@ -75,3 +77,13 @@ xbps-install openntpd
 ln -s /etc/sv/openntpd /var/service/
 #    done; now ntpd daemon is running; repeat a.
 ```
+
+### Prepare package manager
+TODO
+```
+prepare package manager
+vi /etc/xbps.d/timfayz.conf >> “repository=http://…”
+xbps-install -Su
+```
+
+#### ...
