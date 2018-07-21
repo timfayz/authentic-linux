@@ -86,4 +86,10 @@ vi /etc/xbps.d/timfayz.conf >> “repository=http://…”
 xbps-install -Su
 ```
 
+#### Fonts
+
+* Download Terminus font https://files.ax86.net/terminus-ttf/#download
+* `sudo fc-cache`
+* `vi ~/.config/fontconfig/fonts.conf` -> "Terminus (TTF)"
+
 #### ...
