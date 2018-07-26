@@ -4,6 +4,12 @@
 
 Whant to install Linux *the hard way*? Love minimalism, simplicity and mindfulness of what's going on under the hood? This is what you need! :] Be carefull, congnitive load is higher than usual! So don't try to do it *one* day/week/month. Be patient, calm and detached. If it burdens you - f\*ck it!
 
+But if to be *serious* sam, I tried to find "golden" mix between comforable user experience on daily basis & manual work to achieve it. You don't find building something from sources unless there is no way but do it. Otherwise we will just to configure something out of the box.
+
+Authentic Linux is based on best practices from many well-known resources like IBM developerWorks, Arch wiki, etc. Full list of resources can be found [here].
+
+One last but not least thing I want to mention (kind of message to newbies). Don't try to know everything in Linux and do manually! Believe me, one day you just become depressed nerd surrounded by burdensome thoughts. Anyway, at the end no one know what is actually going on under the hood (even Linus T. itself). Since time of Alan Turing and punch cards are gone - no one capable to do so at the current scale. Thus, always keep in mind - *no one* can know everything; only some pieces either wide or narrow.
+
 ## Stack
 All the stack was carefully selected under the following conditions: simplicity, small footprint, ...
 
