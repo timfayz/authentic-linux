@@ -1,4 +1,4 @@
-# Authentic Linux
+# Authentic Linux 🌱 
 
 ![screenshot](authentic-linux.jpg)
 
