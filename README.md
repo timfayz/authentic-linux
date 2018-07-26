@@ -4,9 +4,16 @@
 
 Want to install Linux *the hard way*? Love minimalism, simplicity and mindfulness of what's going on under the hood? Authentic Linux is what you need! :] Be carefull, congnitive load is higher than usual! So don't try to do it *one* day/week/month. Be patient, calm and detached. If it burdens you - f\*ck it!
 
-But if to be *serious* sam, Authentic Linux is based on best practices from many well-known resources like IBM developerWorks, Arch wiki, etc. Full list of resources can be found [here]. I tried to find "golden" mix between awareness of what you do, visual aesthetics, comforable user experience on the daily basis & manual work to achieve it all. You don't find anything building from sources unless there is no way but do it. Otherwise we will just to configure something out of the box. 
+## Intro
+If to be *serious* Sam, Authentic Linux is based on the best practices from many well-known resources like IBM developerWorks, Arch Wiki, etc. Full list of resources can be found [here]. I tried to find a "golden" mix between awareness of what you do, visual aesthetics, comfortable user experience on the daily basis & manual work to achieve it all. You don't find anything building from sources unless there is no way but do it. We will always try to configure something just out of the box if it's possible. 
 
-One last but not least thing I want to mention (kind of message to newbies). Don't try to know everything in Linux and do manually! Believe me, one day you just become depressed nerd surrounded by burdensome thoughts. Anyway, at the end no one know what is actually going on under the hood (even Linus T. itself). Since time of Alan Turing and punch cards are gone - no one capable to do so at the current scale. Thus, always keep in mind - *no one* can know everything; only some pieces either wide or narrow. It's much better to know *enough* to ask a person who know *his* part of a subject and thus, forming kind of network of "resources" where you can ask further issues in question.
+## Message to newbies
+This manual is a message to myself in the past. Don't try to know & do *everything* in Linux manually! Believe me, otherwise one day you just remain a depressed nerd surrounded by burdensome thoughts. At the end no one knows what's actually going on under the hood (even Linus T. itself). Since the time of Alan Turing and punch cards are gone - no one capable to do so at the current scale. Thus, always keep in mind - *no one* can know everything; only some pieces either wide or narrow. It's much better to know *enough* to ask a person who know *his/her* part of a subject and thus, forming kind of network of "resources" where you can ask further issues in question.
+
+## Features
+* Low memory footprint (~Xmb)
+* Visually consistant
+* Based on the most supported software stack
 
 ## Stack
 All the stack was carefully selected under the following conditions: simplicity, small footprint, ...
