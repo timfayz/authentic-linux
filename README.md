@@ -20,7 +20,20 @@ All the stack was carefully selected under the following conditions: simplicity,
 * firefox - as a browser
 
 [toolbox]
-* openntpd - to set system time from internet 
+* openntpd - to set system time from internet
+
+## Unify color experience
+In the course of code editor evolution there are several themes trying to unify experience accross different platforms and applications. One of them is base16[link]. I find it very distinguishable, crisp and nutural. Other ones are Dracula[link], ?. Color themes are matter of preferences. However, as for me one of the most important aspect was *consistence* across the apps. Also, I don't like palette colors and trasitional (neither blue or black but opaque mix of them). I prefer either "dark" theme with quite good contrast and "light" where background would indeed white. Here are examples:
+
+[dark]
+[white]
+[solarized]
+[high contrast]
+[palette]
+
+As in my Authentic Linux I stick with dark & white color themes.
+
+* Expain how to setup base16 for vim, st, code
 
 ## Legend
 * `[--flag]` - optional flag. Shown to be clear what's implied.
