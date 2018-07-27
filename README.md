@@ -12,8 +12,8 @@ This manual is a message to myself in the past. Don't try to know & do *everythi
 
 ## Features
 * Low memory footprint (~Xmb)
-* Visually consistant
-* Based on the most supported software stack
+* Visually consistant (one color & font scheme)
+* Backed by the most supported software stack
 
 ## Stack
 All the stack was carefully selected under the following conditions: simplicity, small footprint, ...
@@ -33,7 +33,7 @@ All the stack was carefully selected under the following conditions: simplicity,
 [toolbox]
 * openntpd - to set system time from internet
 
-## Unify color experience
+## Unified color experience
 In the course of code editor evolution there are several themes trying to unify experience accross different platforms and applications. One of them is base16[link]. I find it very distinguishable, crisp and nutural. Other ones are Dracula[link], ?. Color themes are matter of preferences. However, as for me one of the most important aspect was *consistence* across the apps. Also, I don't like palette colors and trasitional (neither blue or black but opaque mix of them). I prefer either "dark" theme with quite good contrast and "light" where background would indeed white. Here are examples:
 
 [dark]
@@ -43,11 +43,6 @@ In the course of code editor evolution there are several themes trying to unify 
 [palette]
 
 As in my Authentic Linux I stick with dark & white color themes.
-
-* Expain how to setup base16 for vim, st, code
-* Use https://github.com/EvanPurkhiser/linux-vt-setcolors
-* https://github.com/philj56/base16-linux-vt
-* https://github.com/chriskempson/base16-shell
 
 ## Legend
 * `[--flag]` - optional flag. Shown to be clear what's implied.
@@ -113,10 +108,23 @@ vi /etc/xbps.d/timfayz.conf >> “repository=http://…”
 xbps-install -Su
 ```
 
-#### Fonts
+### Color experience across the apps
+* Expain how to setup base16 for nvim, st, code
+
+### Set, test and capture VT/Terminal color scheme
+* Use https://github.com/EvanPurkhiser/linux-vt-setcolors <br>
+(set VT colorscheme)
+* https://github.com/chriskempson/base16-shell
+(show VT colorscheme)
+* https://bisqwit.iki.fi/source/snapscreenshot.html <br>
+(take VT screenshots) `./configure && make install`
+
+### Font experience across the apps
+Explain how to setup fonts in VT, X11 in general and other apps.
 
 * Download Terminus font https://files.ax86.net/terminus-ttf/#download
 * `sudo fc-cache`
 * `vi ~/.config/fontconfig/fonts.conf` -> "Terminus (TTF)"
 
-#### ...
+### Keep user preference in tact
+Explain how to backup everything into `donfiles`
