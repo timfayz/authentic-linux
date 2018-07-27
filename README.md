@@ -45,6 +45,9 @@ In the course of code editor evolution there are several themes trying to unify 
 As in my Authentic Linux I stick with dark & white color themes.
 
 * Expain how to setup base16 for vim, st, code
+* Use https://github.com/EvanPurkhiser/linux-vt-setcolors
+* https://github.com/philj56/base16-linux-vt
+* https://github.com/chriskempson/base16-shell
 
 ## Legend
 * `[--flag]` - optional flag. Shown to be clear what's implied.
