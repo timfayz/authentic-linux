@@ -19,19 +19,28 @@ This manual is a message to myself in the past. Don't try to know & do *everythi
 All the stack was carefully selected under the following conditions: simplicity, small footprint, ...
 
 [base]
-* Syslinux - as bootloader for any Linux distribution
-* Void Linux - as a base distribution and package manager
-* Xorg - as display server
-* dwm - as tiling window manager (WM)
-* slstatus - status bar to print system info in both tmux/DWM (CPU load, time, etc)
-* st - as terminal emulator
-* tmux - as terminal multiplexer (regardless of GUI/console mode)
-* vis - as main text-editor
-* vscode - as IDE
-* firefox - as a browser
+* Syslinux - as bootloader to load any Linux distribution
+* Void Linux - as a base Linux distribution and its `xbps` package manager
+* bash - as a basic shell
+* Xorg - as a display server or GUI mode
 
-[toolbox]
-* openntpd - to set system time from internet
+[CLI mode]
+* tmux - as a terminal multiplexer to preserve sessions
+* neovim - as a main text-editor/IDE
+* irssi - as an IRC client
+* slstatus - status bar to print system info in both tmux/DWM (CPU load, time, etc)
+* openntpd - synchronize system time from internet
+* GNU tools - gpg, openssh, iconv, ...
+
+[X/GUI mode]
+* dwm - as tiling window manager (WM)
+* st - as an terminal emulator
+* vscode - as IDE
+* firefox - as a web browser
+* viewnior - image viewver
+* feh - background image setter
+* imagemagick - to take screenshots, convert, etc
+* krita - image editor
 
 ## Unified color experience
 In the course of code editor evolution there are several themes trying to unify experience accross different platforms and applications. One of them is base16[link]. I find it very distinguishable, crisp and nutural. Other ones are Dracula[link], ?. Color themes are matter of preferences. However, as for me one of the most important aspect was *consistence* across the apps. Also, I don't like palette colors and trasitional (neither blue or black but opaque mix of them). I prefer either "dark" theme with quite good contrast and "light" where background would indeed white. Here are examples:
