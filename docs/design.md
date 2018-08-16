@@ -28,6 +28,9 @@
 * Integration with existing languages
 * Relation algebra? (SQL)
 * Static structure description
+* JIT / scripting abilities
+* Interactive shell
+* Fast DSL generation (Macros)
 
 Any planguage consists of:
 - syntax
