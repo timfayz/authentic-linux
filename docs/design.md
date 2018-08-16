@@ -12,3 +12,25 @@
 * DTb/s/i
 * Support for difference architectures. Infrastructure should be the same of on different plantforms
 * Certainly explained how to compile/assemble everything manually (like a manual if you want to do the same)
+
+**What one's language should support**
+* Obvious programming
+* Do not contradict the natural human/programmer thinking
+* Parallel programming (SCOOP)
+* Meta-programming
+* Reflactions and code generation
+* Formal specification (contract-based design?)
+* Support different types of programming paradigms (OOP, functional, visual, module, etc)
+* Intuitive syntax
+* Hardware nutural memory management
+* Partitial compilation
+* Dead code elimination
+* Integration with existing languages
+* Relation algebra? (SQL)
+* Static structure description
+
+Any planguage consists of:
+- syntax
+- semantic
+- realization
+- toolchain
