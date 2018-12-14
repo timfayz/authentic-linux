@@ -8,7 +8,7 @@ Want to install Linux *the hard way*? Love minimalism, simplicity and mindfulnes
 If to be *serious* Sam, Authentic Linux is based on the best practices from many well-known resources like IBM developerWorks, Arch Wiki, etc. Full list of resources can be found [here]. I tried to find a "golden" mix between awareness of what you do, visual aesthetics, comfortable user experience on the daily basis & manual work to achieve it all. You don't find anything building from sources unless there is no way but do it. We will always try to configure something just out of the box if it's possible. 
 
 ## Message to newbies
-This manual is a message to myself in the past. Don't try to know & do *everything* in Linux manually! Believe me, otherwise one day you just remain a depressed nerd surrounded by burdensome thoughts. At the end no one knows what's actually going on under the hood (even Linus T. itself). Since the time of Alan Turing and punch cards are gone - no one capable to do so at the current scale. Thus, always keep in mind - *no one* can know everything; only some pieces either wide or narrow. It's much better to know *enough* to ask a person who know *his/her* part of a subject and thus, forming kind of network of "resources" where you can ask further issues in question.
+This manual is a message to myself in the past. Don't try to know & do *everything* in Linux manually! Believe me, otherwise one day you just remain a depressed nerd surrounded by burdensome thoughts. At the end no one knows what's actually going on under the hood (even Linus T. itself). Since the time of Alan Turing and punch cards are gone - no one capable to do so at the current scale. Thus, always keep in mind - *no one* can know everything; only some pieces either wide or narrow. It's much better to know *enough* to ask a person who know his/her *part* of a subject and thus, forming kind of network of "resources" where you can ask the right question.
 
 ## Features
 * Low memory footprint (~Xmb)
@@ -43,7 +43,7 @@ All the stack was carefully selected under the following conditions: simplicity,
 * krita - image editor
 
 ## Unified color experience
-In the course of code editor evolution there are several themes trying to unify experience accross different platforms and applications. One of them is base16[link]. I find it very distinguishable, crisp and nutural. Other ones are Dracula[link], ?. Color themes are matter of preferences. However, as for me one of the most important aspect was *consistence* across the apps. Also, I don't like palette colors and trasitional (neither blue or black but opaque mix of them). I prefer either "dark" theme with quite good contrast and "light" where background would indeed white. Here are examples:
+Through the evolution of different IDEs and code editors there are several themes trying to unify visual experience accross different platforms and applications. One of them (in the field of CLI and TUI) is base16[link]. I find it very distinguishable, crisp and nutural. Other ones are Dracula[link]. Color themes are matter of preferences. However, as for me, the most important aspect is *consistence* across the apps. Also, I don't like palette colors and trasitional (neither blue or black but opaque mix of them). I prefer either "dark" theme with quite good contrast and "light" where background would obviously white. Here are examples:
 
 [dark]
 [white]
@@ -51,7 +51,7 @@ In the course of code editor evolution there are several themes trying to unify 
 [high contrast]
 [palette]
 
-As in my Authentic Linux I stick with dark & white color themes.
+As in my "Authentic Linux" I stick with simple dark & white color theme.
 
 ## Legend
 * `[--flag]` - optional flag. Shown to be clear what's implied.
